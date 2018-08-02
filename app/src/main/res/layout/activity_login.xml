@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg">
+
+        <ImageView
+            android:id="@+id/logo_facebook"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/logo_facebook"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="50dp" />
+
+
+        <ImageView
+            android:id="@+id/logo_google"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/logo_google"
+            android:layout_below="@id/logo_facebook"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:layout_marginTop="300dp"
+            android:id="@+id/connect_facebook"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/border_facebook"
+            android:scaleType="centerCrop"
+            android:layout_toRightOf="@id/logo_facebook"
+            android:layout_marginLeft="10dp"
+            android:text="Connect with Facebook"
+            android:textColor="@android:color/white"/>
+
+
+        <Button
+            android:id="@+id/connect_google"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/connect_facebook"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/border_google"
+            android:scaleType="centerCrop"
+            android:layout_toRightOf="@id/logo_google"
+            android:layout_marginLeft="10dp"
+            android:text="Connect with Google"
+            android:textColor="@android:color/white"/>
+
+        <LinearLayout
+            android:id="@+id/linear_container"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/logo_google"
+            android:layout_marginLeft="50dp">
+
+
+            <Button
+                android:id="@+id/sign_in_email"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/border_button"
+                android:text="Sign in with Email"/>
+
+            <Button
+                android:id="@+id/sign_up_email"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/border_button"
+                android:text="Sign Up with Email"
+                android:layout_marginLeft="20dp"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

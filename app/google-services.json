@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "836462475158",
+    "firebase_url": "https://loginapp-fb2a1.firebaseio.com",
+    "project_id": "loginapp-fb2a1",
+    "storage_bucket": "loginapp-fb2a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836462475158:android:ab525d0a94cdb7c1",
+        "android_client_info": {
+          "package_name": "com.jaikotia.loginapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836462475158-jcljbb3326f5vsdql3jutbg5hsm733la.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jaikotia.loginapp",
+            "certificate_hash": "9d394b25e4bbc85f719d7a7d8f1ec5ddb1e1650f"
+          }
+        },
+        {
+          "client_id": "836462475158-hkule5sc2oa4kj7mu4ecltn89fl8i7sh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqLrAreGFtTMJuGy0vX0GmHS40OUcsUvk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836462475158-hkule5sc2oa4kj7mu4ecltn89fl8i7sh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
